@@ -1,0 +1,45 @@
+@font-face{
+    font-family: 'Icons';
+
+    src: url("icons.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-decoration: inherit;
+    text-transform: none;
+}
+.fa{
+ display:inline-block;
+    font:normal normal normal 14px/1 font-semantic;
+    font-size:inherit;
+    text-rendering: auto;
+}
+
+i.icon {
+    display: inline-block;
+    opacity: 1;
+    margin: 0em 0.25rem 0em 0em;
+    width: 1.18em;
+    height: 1em;
+    font-family: 'Icons';
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    text-align: center;
+    speak: none;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+i.icon:before {
+    background: none !important;
+}
+
+i.icon.thumbs.outline.up:before {
+    content: "\f087";
+}
+
+/**/
